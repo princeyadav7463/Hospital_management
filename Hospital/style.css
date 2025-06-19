@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: #45df37;
+  color: rgb(223, 51, 180);
+  padding: 20px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 15px;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #333;
+  border-top: 1px solid #ccc;
+}
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+form {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 300px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input,
+button {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background: #0077b6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.hospital-list {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.hospital-list h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.hospital-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hospital-card {
+  background-color: #fff;
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.hospital-card:hover {
+  transform: translateY(-5px);
+}
+
+.hospital-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.hospital-card h3 {
+  font-size: 20px;
+  margin: 15px;
+  margin-bottom: 0;
+}
+
+.hospital-card p {
+  font-size: 14px;
+  margin: 15px;
+  margin-top: 5px;
+  color: #555;
+}
+
+.hospital-card a {
+  display: block;
+  margin: 15px;
+  margin-top: 0;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.hospital-card a:hover {
+  text-decoration: underline;
+}
